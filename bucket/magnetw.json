@@ -4,7 +4,7 @@
     "version": "3.1.1",
     "license": "https://github.com/xiandanin/magnetW",
     "url":"https://github.com/xiandanin/magnetW/releases/download/3.1.1/magnetw-3.1.1-win.exe#/dl.7z",
-    "hash":"14592d87fd48e66656f27d643ce709cf04cc2786268fffdd8921de8e0812bc27",
+    "hash":"SHA256:14592d87fd48e66656f27d643ce709cf04cc2786268fffdd8921de8e0812bc27",
     "shortcuts": [
        [ "magnetW.exe","MagnetW"]
     ],
