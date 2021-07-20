@@ -3,7 +3,7 @@
     "homepage": "https://github.com/xiandanin/magnetW/",
     "version": "3.1.1",
     "license": "https://github.com/xiandanin/magnetW",
-    "url":"https://github.com/xiandanin/magnetW/releases/download/3.1.1/magnetw-3.1.1-win.exe#/dl.7z",
+    "url":"https://github-releases.githubusercontent.com/124492610/76df4600-3740-11ea-88bb-7022237c35f3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210720%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210720T152333Z&X-Amz-Expires=300&X-Amz-Signature=4aa3f596a93fecec85147e768210e87c4e50ccfa45b9e9499368352ae0fa0c80&X-Amz-SignedHeaders=host&actor_id=28433984&key_id=0&repo_id=124492610&response-content-disposition=attachment%3B%20filename%3Dmagnetw-3.1.1-win.exe&response-content-type=application%2Foctet-stream#/dl.7z",
     "hash":"14592d87fd48e66656f27d643ce709cf04cc2786268fffdd8921de8e0812bc27",
     "shortcuts": [
        [ "magnetW.exe","MagnetW"]
