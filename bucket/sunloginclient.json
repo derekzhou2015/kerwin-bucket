@@ -3,7 +3,7 @@
     "homepage": "https://sunlogin.oray.com/",
     "version": "12.5.0.43486",
     "license": "https://service.oray.com/question/976.html",
-    "url":"https://down.oray.com/sunlogin/windows/SunloginClient_12.5.0.43486_x64.exe#/dl.7z",
+    "url":"https://down.oray.com/sunlogin/windows/SunloginClient_12.5.0.43486_x64.exe",
     "shortcuts": [
        [ "SunloginClient_12.5.0.43486.exe","SunLogin"]
     ],
