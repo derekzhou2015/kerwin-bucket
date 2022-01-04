@@ -1,0 +1,11 @@
+{
+    "description": "SunLoginClicent for Windows",
+    "homepage": "https://sunlogin.oray.com/",
+    "version": "12.5.0.43486",
+    "license": "https://service.oray.com/question/976.html",
+    "url":"https://down.oray.com/sunlogin/windows/SunloginClient_12.5.0.43486_x64.exe#/dl.7z",
+    "shortcuts": [
+       [ "SunloginClient_12.5.0.43486.exe","SunLogin"]
+    ],
+    "notes":"This version is for windows x64."
+}
