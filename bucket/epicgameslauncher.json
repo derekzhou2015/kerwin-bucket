@@ -3,7 +3,7 @@
     "homepage": "https://www.epicgames.com/store/",
     "version": "13.3.0",
     "license": "https://www.epicgames.com/store/en-US/eula",
-    "url":"https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-13.3.0.msi#/dl.7z",
+    "url":"https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-13.3.0.msi",
     "shortcuts": [
        [ "Launcher\\Portal\\Binaries\\Win32\\EpicGamesLauncher.exe","Epic Games Launcher"]
     ],
