@@ -1,0 +1,25 @@
+{
+    "version": "0.2.8",
+    "description": "A desktop application for ChatGPT API (OpenAI API), also a prompt debugging and management tool",
+    "homepage": "https://github.com/Bin-Huang/chatbox",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/Bin-Huang/chatbox/blob/main/LICENSE"
+    },
+    "url": "https://github.com/Bin-Huang/chatbox/releases/download/Chatbox-v0.2.8/chatbox_0.2.8_x64_en-US.msi",
+    "hash":"d153dc2294b4368a72e3308ba84295ac52d6ad156cedf2ed55b2d5c856232756",
+    "extract_dir": "PFiles\\chatbox",
+    "shortcuts": [
+        [
+            "chatbox.exe",
+            "ChatBox"
+        ]
+    ],
+    "checkver":{
+        "url": "https://github.com/Bin-Huang/chatbox/releases",
+        "regex": "Chatbox v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url":"https://github.com/Bin-Huang/chatbox/releases/download/Chatbox-v$version/chatbox_$version_x64_en-US.msi"
+    }
+}
