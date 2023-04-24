@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://yun.baidu.com/disk/version/",
-        "regex": "百度网盘Windows电脑客户端([\\d.]+)"
+        "regex": "Windows.*?([\\d.]+) "
     },
     "autoupdate": {
         "url": "https://issuepcdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_$version.exe#/dl.7z"
