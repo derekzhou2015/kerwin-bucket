@@ -4,7 +4,7 @@
     "homepage": "https://pan.baidu.com/download#win",
     "license": "http://yun.baidu.com/disk/privacy",
     "url":"https://issuepcdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.27.1.5.exe#/dl.7z",
-    "hash":"",
+    "hash":"fb1fd74d73755e436c12ae4a07fc039b5051da3436c7e55b5f539656ac5c1a5c",
     "bin":"BaiduNetdisk.exe",
     "shortcuts": [
        [ "BaiduNetdisk.exe","BaiduNetdisk"]
