@@ -1,21 +1,24 @@
 {
-    "version": "7.25.0.4",
+    "version": ".",
     "description": "BaiduNetdisk for Windows",
     "homepage": "https://pan.baidu.com/download#win",
     "license": "http://yun.baidu.com/disk/privacy",
-    "url":"https://issuepcdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.25.0.4.exe#/dl.7z",
-    "hash":"",
-    "bin":"BaiduNetdisk.exe",
+    "url": "https://issuepcdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_..exe",
+    "hash": "",
+    "bin": "BaiduNetdisk.exe",
     "shortcuts": [
-       [ "BaiduNetdisk.exe","BaiduNetdisk"]
+        [
+            "BaiduNetdisk.exe",
+            "BaiduNetdisk"
+        ]
     ],
     "checkver": {
         "url": "https://yun.baidu.com/disk/version/",
-        "regex":"([\\d.]+)"
+        "regex": "([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://issuepcdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_$version.exe",
-        "hash":"$url.sha256"
+        "hash": "$url.sha256"
     },
-    "notes":""
+    "notes": ""
 }
