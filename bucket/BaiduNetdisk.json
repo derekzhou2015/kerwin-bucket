@@ -10,11 +10,12 @@
        [ "BaiduNetdisk.exe","BaiduNetdisk"]
     ],
     "checkver": {
-        "url": "https://yun.baidu.com/disk/version",
-        "regex":"(?sm)百度网盘Windows电脑客户端([Vv]?)([\\d.]+)"
+        "url": "https://yun.baidu.com/disk/version/",
+        "regex":"Windows电脑客户端([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://issuepcdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_$version.exe"
+        "url": "https://issuepcdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_$version.exe",
+        "hash":"$url.sha256"
     },
     "notes":""
 }
