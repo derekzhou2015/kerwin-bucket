@@ -13,8 +13,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://yun.baidu.com/disk/version/",
-        "regex": "Windows.*?([\\d.]+) "
+        "url": "https://golang.org/dl/",
+        "regex": "go([\\d.]+)\\.windows-"
     },
     "autoupdate": {
         "url": "https://issuepcdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_$version.exe#/dl.7z"
