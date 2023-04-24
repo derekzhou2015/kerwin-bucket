@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://yun.baidu.com/disk/cmsdata?platform=guanjia&page=1&num=2",
-        "regex": "百度网盘Windows电脑客户端V?([\\d.]+)"
+        "regex": "BaiduNetdisk_([\\d.]+).exe"
     },
     "autoupdate": {
         "url": "https://issuepcdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_$version.exe#/dl.7z"
