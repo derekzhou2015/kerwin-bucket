@@ -20,6 +20,8 @@
         "        $name = $_.Name",
         "        if ($name -Like $form) {",
         "            Write-Host \"Creating hardlink for $name\"",
+        "            Write-Host \"path 1 $dir\\bin\\Xray\"",
+        "            Write-Host \"path 2 $(appdir xray $global)\\current\\$name\"",
         "            New-Item -ItemType HardLink -Path \"$dir\\bin\\Xray\" -Name $name -Target \"$(appdir xray $global)\\current\\$name\" | Out-Null",
         "        }",
         "    }",
