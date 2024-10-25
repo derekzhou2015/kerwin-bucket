@@ -1,5 +1,5 @@
 {
-    "version": "6.60",
+    "version": "7.0.1",
     "description": "A V2Ray client for Windows, support Xray core and v2fly core",
     "homepage": "https://github.com/2dust/v2rayN",
     "license": "GPL-3.0-only",
@@ -8,8 +8,8 @@
         ".NET 6.0 Desktop Runtime": "extras/windowsdesktop-runtime-lts",
         "v2fly-core": "v2ray"
     },
-    "url": "https://github.com/2dust/v2rayN/releases/download/6.60/v2rayN.zip",
-    "hash": "fc1243faee5ebdf501d1416ae8567a993638c9ead92f94c4121feb6771f549d5",
+    "url": "https://github.com/2dust/v2rayN/releases/download/7.0.1/v2rayN.zip",
+    "hash": "57656d3285c0cc2f34ea5afc169e9544a373279862ac03cee3f889dc7c04160a",
     "extract_dir": "v2rayN",
     "pre_install": [
         "if (Test-Path \"$persist_dir\\guiConfigs\\config.json\") {",
