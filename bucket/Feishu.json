@@ -22,21 +22,22 @@
             "app/Feishu.exe",
             "Feishu"
         ]
-    ],"checkver": {
+    ],
+    "checkver": {
     "url": "https://www.feishu.cn/api/downloads",
-    "regex": "(?sm)\"Windows\":.*?\"download_link\":\\s*\"https://(?<path32>[\\w./-]+)/Feishu-win32_ia32-(?<version>[\\d.]+)-signed\\.exe\".*?\"Windows_x64\":.*?\"download_link\":\\s*\"https://(?<path64>[\\w./-]+)/Feishu-win32_x64"
+    "regex": "(?sm)\"Windows\":.*?\"download_link\":\\s*\"https://(?<pathb>[\\w./-]+)/Feishu-win32_ia32-(?<version>[\\d.]+)-signed\\.exe\".*?\"Windows_x64\":.*?\"download_link\":\\s*\"https://(?<patha>[\\w./-]+)/Feishu-win32_x64"
 },
 "autoupdate": {
     "architecture": {
         "64bit": {
-            "url": "https://$matchPath64/Feishu-win32_x64-$version-signed.exe#/feishu-$version.7z",
+            "url": "https://$matchPatha/Feishu-win32_x64-$version-signed.exe#/feishu-$version.7z",
             "hash": {
                 "url": "https://www.feishu.cn/api/downloads",
                 "jsonpath": "$.versions.Windows_x64.hash"
             }
         },
         "32bit": {
-            "url": "https://$matchPath32/Feishu-win32_ia32-$version-signed.exe#/feishu-$version.7z",
+            "url": "https://$matchPathb/Feishu-win32_ia32-$version-signed.exe#/feishu-$version.7z",
             "hash": {
                 "url": "https://www.feishu.cn/api/downloads",
                 "jsonpath": "$.versions.Windows.hash"
